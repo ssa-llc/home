@@ -36,12 +36,12 @@
             left: 0;
             right: 0;
             bottom: 0;
-            background-color: rgba(0, 0, 0, 0.7); /* Полупрозрачный слой */
+            background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный слой */
         }
 
         .text {
-            font-size: 40vw; /* Размер текста в зависимости от ширины окна */
-            color: rgba(255, 255, 255, 0.274); /* Очень полупрозрачный текст */
+            font-size: 20vw; /* Размер текста в зависимости от ширины окна */
+            color: rgba(255, 255, 255, 0.1); /* Очень полупрозрачный текст */
             position: absolute;
             z-index: 1;
             text-align: center;
@@ -83,6 +83,32 @@
             font-size: 16px;
         }
 
+        footer {
+            margin-top: 50px;
+            padding: 20px;
+            background-color: #333;
+            text-align: center;
+        }
+
+        .contact {
+            margin: 30px 0;
+            text-align: center;
+        }
+
+        .contact a {
+            text-decoration: none;
+            color: #fff;
+            padding: 10px 20px;
+            background-color: #444;
+            border-radius: 5px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        .contact a:hover {
+            background-color: #fff; /* Изменение цвета фона на белый */
+            color: #444; /* Изменение текста на темный при наведении */
+        }
+
     </style>
 </head>
 <body>
@@ -106,4 +132,18 @@
                 <p>Every move counts, every decision shapes the outcome. Are you prepared to make the right choice? Precision is key—those who master it will reveal the path to the next level.
 </p>
             </div>
-        </div
+        </div>
+    </div>
+
+    <!-- Contact Button Section -->
+    <div class="contact">
+        <a href="ssa1.html">Contact us</a>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>All rights reserved &copy; 2024</p>
+    </footer>
+
+</body>
+</html>
