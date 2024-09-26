@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SSA</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #1a1a1a;
+            color: #fff;
+        }
+
+        .hero {
+            height: 100vh;
+            background-image: url('https://c.wallhere.com/photos/e5/19/Lamborghini_Countach_Countach_25th_Anniversary_white_cars_photography-2282764.jpg!d'); /* Укажи путь к своей картинке */
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.7); /* Полупрозрачный слой */
+        }
+
+        .text {
+            font-size: 40vw; /* Размер текста в зависимости от ширины окна */
+            color: rgba(255, 255, 255, 0.274); /* Очень полупрозрачный текст */
+            position: absolute;
+            z-index: 1;
+            text-align: center;
+        }
+
+        .content {
+            padding: 50px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .card-container {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            width: 100%;
+        }
+
+        .card {
+            background-color: #2e2e2e;
+            border-radius: 10px;
+            padding: 20px;
+            width: 40%; /* Ширина карточки по 40% от экрана */
+            text-align: center;
+            transition: background-color 0.3s ease;
+        }
+
+        .card:hover {
+            background-color: #3e3e3e;
+        }
+
+        h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 16px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Hero Section with Image and Text -->
+    <div class="hero">
+        <div class="overlay"></div>
+        <div class="text">ssa</div>
+    </div>
+
+    <!-- Scrollable Content with Two Rectangular Cards -->
+    <div class="content">
+        <div class="card-container">
+            <div class="card">
+                <h2>Test 1</h2>
+                <p>This is the description of the first test. Minimalist and simple design.</p>
+            </div>
+            <div class="card">
+                <h2>Test 2</h2>
+                <p>This is the description of the second test. Minimalist and simple design.</p>
+            </div>
+        </div
