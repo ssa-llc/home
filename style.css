@@ -14,7 +14,7 @@ body {
 
 .hero {
     height: 100vh;
-    background-image: url('https://c.wallhere.com/photos/e5/19/Lamborghini_Countach_Countach_25th_Anniversary_white_cars_photography-2282764.jpg!d'); /* Укажи путь к своей картинке */
+    background-image: url('https://c.wallhere.com/photos/3a/5a/1920x1080_px_car_Porsche_Carrera_GT-660838.jpg!d'); /* Укажи путь к своей картинке */
     background-size: cover;
     background-position: center;
     display: flex;
